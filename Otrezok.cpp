@@ -5,12 +5,11 @@
 
 Otrezok initOtrezok(int a, int b) {
 	Otrezok O;
-
-	O.A = initTouch(a, b);
-	O.B = initTouch(b, a);
+	O.list[0] = initTouch(a, b);
+	O.list[1] = initTouch(b, a);
 	
 	return	O;
 }
 void printOtrezok(Otrezok O) {
-	printf("%d,%d-%d,%d\n", O.A, O.B);
+	printf("%d,%d-%d,%d\n", O.list[0], O.list[1]);
 }
