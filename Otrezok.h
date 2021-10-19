@@ -9,8 +9,8 @@ struct Otrezok {
   
 };
 Otrezok initOtrezok(int a, int b);
-void setOtrezok(Otrezok* O,struct Touchka* A,struct Touchka* B);
+Otrezok setOtrezok(Otrezok O);
 void printOtrezok(Otrezok O);
-void lenghtOtrezok(Otrezok O);
+
 
 #endif //Header

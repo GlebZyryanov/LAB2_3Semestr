@@ -10,6 +10,11 @@ Otrezok initOtrezok(int a, int b) {
 	
 	return	O;
 }
+Otrezok setOtrezok(Otrezok O) {
+	O.list[0] = setTouch(O.list[0]);
+	O.list[1] = setTouch(O.list[1]);
+	return O;
+}
 void printOtrezok(Otrezok O) {
-	printf("%d,%d-%d,%d\n", O.list[0], O.list[1]);
+	printf("(%d,%d-%d,%d)\n", O.list[0], O.list[1]);
 }

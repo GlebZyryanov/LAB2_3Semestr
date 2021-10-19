@@ -3,12 +3,12 @@
 #define touchkah_h
 
 struct Touchka {
-	int Cord1;//координаты точки
-	int Cord2;
+	int CordX;
+	int CordY;
 };
-void initTouch(struct Touchka* T);
-void setTouch(struct Touchka* T);
-void printTouch(struct Touchka* T);
+Touchka initTouch(int a,int b);
+Touchka setTouch( Touchka T);
+void printTouch( Touchka T);
 
 #endif //Header
 
