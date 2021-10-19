@@ -5,16 +5,17 @@
 
 Otrezok initOtrezok(int a, int b) {
 	Otrezok O;
-	O.list[0] = initTouch(a, b);
-	O.list[1] = initTouch(b, a);
+	O.listTouchka[0] = initTouch(a, b);
+	O.listTouchka[1] = initTouch(b, a);
 	
 	return	O;
 }
 Otrezok setOtrezok(Otrezok O) {
-	O.list[0] = setTouch(O.list[0]);
-	O.list[1] = setTouch(O.list[1]);
+	O.listTouchka[0] = setTouch(O.listTouchka[0]);
+	O.listTouchka[1] = setTouch(O.listTouchka[1]);
 	return O;
 }
 void printOtrezok(Otrezok O) {
-	printf("(%d,%d-%d,%d)\n", O.list[0], O.list[1]);
+	printf("The Coordinates of Otrezok are: ");
+	printf("(%d,%d-%d,%d)\n", O.listTouchka[0], O.listTouchka[1]);
 }

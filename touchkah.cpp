@@ -15,5 +15,6 @@ Touchka setTouch(Touchka T) {
 	return T;
 }
 void printTouch( Touchka T) {
+	printf("The Coordinates of points are: ");
 	printf("(%d,%d)", T.CordX,T.CordY);
 }

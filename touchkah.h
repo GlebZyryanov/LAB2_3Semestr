@@ -1,6 +1,6 @@
 #pragma once
-#ifndef touchkah_h
-#define touchkah_h
+#ifndef Touchkah_h
+#define Touchkah_h
 
 struct Touchka {
 	int CordX;
