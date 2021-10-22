@@ -1,7 +1,8 @@
 ﻿#include<stdio.h>
 
-#include"Touchkah.h"
+#include"touchkah.h"
 #include "Otrezok.h"
+#include "My_Squaer.h"
 #include"My_Triangle.h"
 int main()
 {
@@ -14,9 +15,9 @@ int main()
 	//O = initOtrezok(0, 0);
 	//O = setOtrezok(O);
 	//printOtrezok(O);
-	My_Triangle Triangle;
-	Triangle = initTriangle(1,2);
-	Triangle = setTriangle(Triangle);
-	printTriangle(Triangle);
+	My_Squaer Triangle;
+	Triangle = initSquaer(1,2);
+	Triangle = setSquaer(Triangle);
+	printSquaer(Triangle);
 }
 
