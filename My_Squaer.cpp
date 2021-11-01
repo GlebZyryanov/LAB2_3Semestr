@@ -13,7 +13,7 @@ My_Squaer initSquaer(int a, int b) {
 }
 My_Squaer setSquaer(My_Squaer Squaer) {
 	
-	printf("Setting of squaere points:\n");
+	printf("\nSetting of squaere points:\n");
 	for (int i = 0; i < 4; i++) {
 		Squaer.listMy_Squaer[i] = setTouch(Squaer.listMy_Squaer[i]);
 	}

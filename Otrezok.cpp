@@ -11,6 +11,7 @@ Otrezok initOtrezok(int a, int b) {
 	return	O;
 }
 Otrezok setOtrezok(Otrezok O) {
+	printf("\nSetting of Otrezok points:\n");
 	O.listTouchka[0] = setTouch(O.listTouchka[0]);
 	O.listTouchka[1] = setTouch(O.listTouchka[1]);
 	return O;

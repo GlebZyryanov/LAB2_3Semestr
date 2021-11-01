@@ -10,6 +10,7 @@ Touchka initTouch(int a, int b) {
 	return T;
 }
 Touchka setTouch(Touchka T) {
+	printf("Put there the coordinates of points\n");
 	scanf("%d", &T.CordX);
 	scanf("%d", &T.CordY);
 	return T;

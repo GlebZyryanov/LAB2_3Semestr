@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include"Touchkah.h"
-#include "Otrezok.h"
+#include"touchkah.h"
+
 #include"My_Triangle.h"
 
 My_Triangle initTriangle(int a,int b) {
@@ -13,6 +13,7 @@ My_Triangle initTriangle(int a,int b) {
 	return Triangle;
 }
 My_Triangle setTriangle(My_Triangle Triangle) {
+	printf("\nSetting of Triangle points:\n");
 	for (int i = 0; i < 3; i++) {
 		Triangle.listTriangle[i] = setTouch(Triangle.listTriangle[i]);
 	}

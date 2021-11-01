@@ -1,8 +1,8 @@
 #pragma once
 #ifndef My_Triangle_h
 #define My_Triangle_h
-#include"Touchkah.h"
-#include "Otrezok.h"
+#include"touchkah.h"
+
 struct My_Triangle {
 	Touchka listTriangle[3];
 };

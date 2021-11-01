@@ -12,13 +12,16 @@ My_Pentagon initPentagon(int a, int b) {
 	return Pentagon;
 }
 My_Pentagon setPentagon(My_Pentagon Pentagon) {
+	printf("\nPut here coordinates point of Pentagon\n");
 	for (int i = 0; i < 5; i++) {
 		Pentagon.listMy_Pentagon[i] = setTouch(Pentagon.listMy_Pentagon[i]);
 	}
 	return Pentagon;
 }
 void printPentagon(My_Pentagon Pentagon) {
+	printf("\nCoordinates of Pentagon are:");
 	for (int i = 0; i < 5; i++) {
+		
 		printf("(%d,%d) ", Pentagon.listMy_Pentagon[i].CordX, Pentagon.listMy_Pentagon[i].CordY);
 	}
 }
